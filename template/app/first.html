@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+
+<head>
+
+</head>
+
+<body>
+    <p style="color:green;">
+        check mysql present in Blog or not (while using "not in" operator)
+    </p><br>
+    <p style="color:Red">
+        <b>Result: </b> {{result}}
+    </p>
+    <Br>
+    <p style=" color:green; ">
+        Check order number 99 present in order or not (while using "not in " operator)
+    </p><br>
+    <Br>
+    <p style="color:red ">
+        <b>Result :</b> {{fair}}
+    </p>
+    <p>
+        {% if test is not languages %} {{test}} is not present in language list {{languages}} {% else %} {{test}} is presnt is language list {{languages}} {%endif%}
+    </p>
+    <p>
+        {% if test in not vowels %} {{const}}is one of the five friend {% else %} {{const}} is not in the list of live friend {%endif%}
+    </p>
+
+</body>
+
+</html>
